@@ -4,9 +4,278 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/main.js" defer></script>
     <title>Traveland</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header_nav">
+            <a href="/" class="header_logo">Trevland</a>
+            <nav class="nav_menu menu">
+              <ul class="menu_items">
+                <li class="menu_item">
+                  <a href="#" class="menu_link">Home</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#" class="menu_link">Location</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#" class="menu_link">Blog</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#" class="menu_link">About</a>
+                </li>
+                <li class="menu_item">
+                  <a href="#" class="menu_link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="nav_btn travel_btn" type="button">
+              Booking now
+            </button>
+          </div>
+
+          <div class="header_info">
+            <h1 class="header_title">
+              Railtrips To Here, There And Everywhere!
+            </h1>
+            <p class="header_text">
+              We all wish to start our year the best way possible and also
+              according to a common belief if you have a great start to your.
+            </p>
+            <button class="travel_btn header_info-btn">Explore more</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <section class="popular-location popular-location__container">
+          <h2 class="popular-location__title">Popular Location</h2>
+          <p class="popular-location__text">
+            For every one of us, travel came first. We’ve spent years living as
+            nomads, pioneers, and voyagers— from island hopping in the
+          </p>
+
+          <div class="popular-location__cards">
+            <div class="popular-location__card location-card">
+              <img
+                src="./img/turkey.jpg"
+                alt="Turkey"
+                class="location-card__img"
+              />
+              <h4 class="location-card__title">Istanbul, Turkey</h4>
+              <p class="location-card__info">
+                Istanbul is a major city in Turkey that straddles Europe.
+              </p>
+            </div>
+
+            <div class="popular-location__card location-card">
+              <img
+                src="./img/malaysia.jpg"
+                alt="Malaysia"
+                class="location-card__img"
+              />
+              <h4 class="location-card__title">Kuala Lumpur, Malaysia</h4>
+              <p class="location-card__info">
+                A 272-step long trek leads you to this century.
+              </p>
+            </div>
+
+            <div class="popular-location__card location-card">
+              <img
+                src="./img/korea.jpg"
+                alt="Korea"
+                class="location-card__img"
+              />
+              <h4 class="location-card__title">Seoul, South Korea</h4>
+              <p class="location-card__info">
+                South Korea officially the Republic of Korea is a country in
+                East Asia.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="special-offers">
+          <h2 class="special-offers__title">Special Offers</h2>
+          <p class="special-offers__text">
+            With the New Year comes a refreshing sense of wanderlust, a longing
+            in our souls to escape to warmer climates,
+          </p>
+          <div class="special-offers__slider slider__special-offers"></div>
+        </section>
+
+        <section class="from-blog from-blog__container">
+          <h4 class="from-blog__title">From Blog & News</h4>
+          <p class="from-blog__text">
+            Welcome to Community Conversations, a new interview series featuring
+            Intrepid travellers, creatives and activists in our community.
+          </p>
+
+          <div class="from-blog-news news-blog">
+            <div class="news-blog__main main-news">
+              <img
+                src="./img/canada-ontario-niagara-falls.jpg"
+                alt="Canada ontarion niagara falls"
+                class="main-news__img"
+              />
+              <h4 class="main-news__title">Banff National Park</h4>
+              <div class="main-news__text">
+                <p>
+                  Banff National Park lies in the heart of the majestic Rocky
+                  Mountains in the province of Alberta, and showcases some of
+                  Canada's most beautiful scenery.
+                </p>
+                <p>
+                  Turquoise-colored lakes, snow-capped peaks, and glaciers are
+                  all easily accessible
+                </p>
+              </div>
+              <h5 class="main-news__author">@thomasalva_adison</h5>
+            </div>
+
+            <div class="news-blog__other other-news">
+              <div class="other-news__item">
+                <div class="other-news__img-block">
+                  <img
+                    src="./img/hiroshima.jpg"
+                    alt="Hiroshima"
+                    class="other-news__img"
+                  />
+                </div>
+                <div class="other-news__info">
+                  <h4 class="other-news__title">The Hiroshima Peace!</h4>
+                  <div class="other-news__text">
+                    <p>
+                      It was formally opened to the public in August that year.
+                    </p>
+                  </div>
+                  <h5 class="other-news__author">@shova_bd88</h5>
+                </div>
+              </div>
+
+              <div class="other-news__item">
+                <div class="other-news__img-block">
+                  <img
+                    src="./img/faithful.jpg"
+                    alt="Faithful"
+                    class="other-news__img"
+                  />
+                </div>
+                <div class="other-news__info">
+                  <h4 class="other-news__title">The faithful prayers!</h4>
+                  <div class="other-news__text">
+                    <p>A major pilgrimage center for Hindus, the holy city.</p>
+                  </div>
+                  <h5 class="other-news__author">@adem/smith</h5>
+                </div>
+              </div>
+
+              <div class="other-news__item">
+                <div class="other-news__img-block">
+                  <img
+                    src="./img/colourful.jpg"
+                    alt="Colourful"
+                    class="other-news__img"
+                  />
+                </div>
+                <div class="other-news__info">
+                  <h4 class="other-news__title">Colourful waters!</h4>
+                  <div class="other-news__text">
+                    <p>Forest-driven water and energy cycles are poorly.</p>
+                  </div>
+                  <h5 class="other-news__author">@jhon7leew</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container footer__wrapper">
+          <div class="footer__main">
+            <a href="#" class="footer__logo">Trevland</a>
+            <a href="#" class="footer__contact">Contact us</a>
+            <a href="#" class="footer__mail">@shovasatkhira88.com</a>
+            <ul class="footer__social-items">
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <img src="./img/facebook.svg" alt="facebook" />
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><img src="./img/instagram.svg" alt="instagram"
+                /></a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><img src="./img/twitter.svg" alt="twitter "
+                /></a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#" class="footer__social-link"
+                  ><img src="./img/gmail.svg" alt="gmail"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-menu">
+            <li class="footer-menu__items">
+              <a href="#" class="footer-menu__link">Services</a>
+            </li>
+            <li class="footer-menu__items">
+              <a href="#" class="footer-menu__link">About</a>
+            </li>
+            <li class="footer-menu__items">
+              <a href="#" class="footer-menu__link">Our story</a>
+            </li>
+            <li class="footer-menu__items">
+              <a href="#" class="footer-menu__link">Benefits</a>
+            </li>
+            <li class="footer-menu__items">
+              <a href="#" class="footer-menu__link">Branding</a>
+            </li>
+            <li class="footer-menu__items">
+              <a href="#" class="footer-menu__link">Legal</a>
+            </li>
+            <li class="footer-menu__items">
+              <a href="#" class="footer-menu__link">Terms & Conditions</a>
+            </li>
+            <li class="footer-menu__items">
+              <a href="#" class="footer-menu__link">Privecy Policy</a>
+            </li>
+            <li class="footer-menu__items">
+              <a href="#" class="footer-menu__link">Terms of use</a>
+            </li>
+          </ul>
+
+          <div class="footer-subscribe">
+            <h4 class="footer-subscribe__title">SUBSCRIBE NOW</h4>
+            <form action="#" class="footer-form">
+              <input
+                class="footer-form__email"
+                type="email"
+                placeholder="Email"
+              />
+              <button type="submit" class="travel_btn footer-subscribe__btn">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
