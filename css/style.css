@@ -311,10 +311,136 @@ body {
   text-align: center;
   line-height: 160%;
   opacity: 0.6;
+  margin-bottom: 60px;
 }
 .special-offers__slider {
 }
 .slider__special-offers {
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+  padding-bottom: 80px;
+}
+
+.swiper-pagination-bullet {
+  width: 75px;
+  height: 5px;
+  border-radius: 10px;
+  background: #c9453b;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  transform: rotate(180deg);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 96%;
+}
+
+.swiper-button-prev {
+  left: 30%;
+}
+
+.swiper-button-next {
+  right: 30%;
+}
+
+/* ================================ */
+
+.offers-slide {
+}
+
+.offers-slide__img {
+  width: 262px;
+  height: 173px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.offers-slide__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.offers-slide__title {
+  font-family: var(--ff-gelasio);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+
+div.offers-slide div:has(span.offers-slide__local) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.offers-slide__local {
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  line-height: 150%;
+  opacity: 0.6;
+  padding-left: 30px;
+}
+
+.offers-slide__local::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: calc(15.201px / 2);
+  width: 10.858px;
+  height: 15.201px;
+  background: url(../img/local.svg) center / contain no-repeat;
+}
+
+.offers-slide__star {
+  display: inline-block;
+  position: relative;
+  padding-left: 34px;
+  margin-right: 27px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.offers-slide__star::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  background: url(../img/Star.svg) center / contain no-repeat;
+}
+
+.offers-slide__days {
+  line-height: 150%;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+
+.offers-slide__price {
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 150%;
+}
+
+.offers-slide__price span {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
 }
 
 /* ==============FROM BLOG================= */
